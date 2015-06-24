@@ -1,0 +1,104 @@
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+header{
+	width: 100%;
+	background: black;
+	position: fixed;
+	height: 73px;
+}
+
+#sit_navigation{
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: 73px;
+	border: solid red 1px;
+}
+
+#sit_navigation a{ 
+	font-family: 'cubano', sans-serif;
+	font-size:13px; 
+	width: 80px;
+	line-height: 73px;
+	display: inline-block;
+	margin-left: 40px;
+	font-weight: 900;
+	color: #87D4E8;
+	text-align: center;
+}
+
+#sit_navigation a:hover{
+	color:white;
+}
+
+a.PLEDGE:hover{
+	background: #99CA3C;
+}
+
+a.REWARDS:hover{
+	background: #2f1c16;
+}
+
+a.LEARN:hover{
+	background:#D42688;
+}
+
+a.TOUR:hover{
+	background:  #1CC8EF;
+}	
+
+a.LOGIN:hover{
+	background: #0053A0;
+}
+
+#body1{
+	width: 100%;
+	height: 745px;
+	background: #23222D;
+}
+
+
+#body1  img{
+	display:block;
+	margin: 0 auto;
+}
+
+#body2{
+	width: 100%;
+	height: 745px;
+	background: #2f1c16;
+}
+
+
+#body2  img{
+	display:block;
+	margin: 0 auto;
+}
+
+#bottom{
+	width: 100%;
+	height: 210px;
+	background: #135A9A;
+}
+
+div.contact{
+	height: 210px;
+	width: 960px;
+	margin: 0px auto;
+}
+
+div.contact p{
+	text-indent: 2em;
+	color: white;
+	line-height: 18px;
+
+}
+
+p.bottom_p1{
+	margin-top: 50px;
+}
